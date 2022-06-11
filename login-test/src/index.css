@@ -1,0 +1,12 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+*{
+    font-family: 'Mali', cursive;
+}
+
+body{
+  display: grid;
+  min-height: 100vh;
+  background: linear-gradient(0deg, #185aad, #43cea2);
+}
