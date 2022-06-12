@@ -39,7 +39,6 @@ function LoginForm() {
     }else{
       setPwd("");
       setSuccess(false);
-      console.log(alertLogin);
       alertLogin.hidden = false;
     }
   };
