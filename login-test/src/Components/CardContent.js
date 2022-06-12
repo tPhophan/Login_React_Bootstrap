@@ -11,7 +11,6 @@ function CardContent() {
     useEffect(() =>{
         axios.get('http://localhost:54780/api/CatsContoller')
         .then(res => {
-            console.log(res);
             setPosts(res.data);
         })
         .catch(err => {
